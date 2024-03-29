@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*,
+*::after,
+*::before{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url("https://images.unsplash.com/photo-1578990628400-94f031afbe3d?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Nanum Gothic", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(229,240,243);
+}
+.container{
+  width: 450px;
+  border: 1px solid white;
+  text-align: center;
+  height: 514px;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  background-color: white;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 10px;
+}
+span{
+  color: rgb(207 , 129 , 6);
+}
+button{
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: rgb(36, 46 , 76 );
+  padding: 1rem 3rem;
+  /* margin-top: 7rem; */
+}
+button:hover{
+  color: black;
+  background-color: burlywood;
+}
